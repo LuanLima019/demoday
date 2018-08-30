@@ -1,7 +1,6 @@
 {
   "name": "projeto-acessocultural",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +9,18 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.3"
-  }
+    "express": "^4.16.3",
+    "index.js": "0.0.3",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoResende/Projeto-Acesso-Cultural.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HugoResende/Projeto-Acesso-Cultural/issues"
+  },
+  "homepage": "https://github.com/HugoResende/Projeto-Acesso-Cultural#readme",
+  "description": ""
 }

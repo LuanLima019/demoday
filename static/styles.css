@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+header {   
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+h1{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+header img{
+    width: 100px;
+
+}
+
+section p{
+    
+    font-size: 25px;
+    
+    background-color: lightslategray;
+}
+
+
+.eventos .fotos{
+    display: flex;   
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.eventos .fotos div{
+    width: 30%;
+}
+
+.eventos .fotos div img{
+    width: 100%;
+
+}

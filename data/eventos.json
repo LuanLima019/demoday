@@ -1,0 +1,19 @@
+[
+{
+"nome": "Biblioteca",
+"img": "/static/evento-1.jpg"
+
+},
+
+{
+"nome": "Teatro",
+"img": "/static/evento-3.jpg"
+
+},
+
+{
+"nome": "Museu",
+"img": "/static/evento-2.jpg"
+
+}
+]
