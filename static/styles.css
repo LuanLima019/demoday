@@ -77,3 +77,16 @@ footer{
     height: 110px;
     
 }
+
+h4{
+    text-align: center;
+    font-size: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    
+    
+
+}

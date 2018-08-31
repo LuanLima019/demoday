@@ -3,12 +3,24 @@
     <%- include('shared/head') %>
 <body>
     <%- include('shared/header') %>
-    <h4>Fale Conosco</h4>
-    <form action=""></form>
-    <input type="text" placeholder="nome" name="nome">
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-
     
+    <section>
+        
+    <h4>Fale Conosco</h4>
+
+
+    <form method="POST" action="/">
+
+    <input type="text" placeholder="Nome" name="nome">
+    <input type="text" placeholder="Email" name="email">
+    <textarea rows="10" placeholder="Mensagem" name="mensagem"></textarea>
+    
+    <button>Enviar</button>
+    </form>
+    
+</section>
+    
+    <%- include('shared/footer') %>
 
 </body>
 </html>
