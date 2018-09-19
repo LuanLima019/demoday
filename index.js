@@ -8,11 +8,11 @@ const app = express();
 
 app.set('view engine', 'ejs');
 app.use('/static', express.static('static'));
-app.use(bodyParser.urlencoded());
+// app.use(bodyParser.urlencoded());
 app.use(expressMongoDb('mongodb://localhost/Cultural'));
 
 app.get('', (req, res) => {
-    res.render('index');
+    res.render('index', {'eventos': eventos});
 });
 
 app.post('', (req, res) => {
@@ -22,8 +22,8 @@ app.post('', (req, res) => {
     });
 });
 
-app.get('/cultural', (req, res) => {
-    res.render('cultural', {'eventos': eventos});
+app.get('/quemsomos', (req, res) => {
+    res.render('quemsomos');
 });
 
 app.get('/faleconosco', (req, res) => {

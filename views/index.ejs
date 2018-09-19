@@ -3,30 +3,24 @@
     <%- include('shared/head') %>
 <body>
     <%- include('shared/header') %>
+    <section class=eventos>
+
+        <h2>Conheça os Melhores Eventos de São Paulo</h2>
+        <div class="fotos" >
+            <% for(let evento of eventos){ %>
+            <div>
+                <img src="<%= evento.img %>" alt="">
+                    <h3><%= evento.nome %></h3>
+            </div>
+            <% } %>
+        </div>
     
-    <section>
-    <p>
-        O Ministério da Cultura apoia projetos culturais por meio da Lei Federal de Incentivo à Cultura (Lei nº 8.313/91), a Lei Rouanet, a Lei do Audiovisual (Lei nº 8.685/93) e também por editais para projetos específicos, lançados periodicamente. Obtenha nesta página informações sobre os mecanismos de apoio, conheça os editais e participe!
-    </p>
-
-    <p>
-        Editais de Museus
-        06.07.2018
-         
-        Edital 1 - Modernização de Museus
-        
-        Objeto: seleção de 28 (vinte) iniciativas voltadas à preservação do patrimônio museológico, implementadas por instituições museológicas ou mantenedores de museus constituídos como pessoas jurídicas de direito público estadual e municipal e pessoas jurídicas de direito privado sem fins lucrativos, com finalidade cultural, excetuando-se àquelas vinculadas à estrutura do Ministério da Cultura - MinC.
-        Período de inscrição: 9/7 a 6/9 
-        Recursos: premiação de R$ 100.000,00 (cem mil reais) para 28 (vinte e oito) instituições cujas iniciativas voltadas à preservação do patrimônio museológico, sejam selecionadas nos termos do Edital.
-        Contato para dúvidas sobre o edital: fomento@museus.gov.br
-        Onde se inscrever: www.museus.gov.br
-        Saiba mais
-        
-         
-    </p>
-
-      
 </section>
+    
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d82995.18000629742!2d-46.60809685943117!3d-23.745671554158125!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1537360343806" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      
+
 
     <%- include('shared/footer') %>
 

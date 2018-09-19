@@ -3,58 +3,52 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    
 }
-
-
 header {   
     overflow: auto;
-    
 }
-
 nav{
     display: flex;
     justify-content: space-around;
     background-color: rgb(19, 131, 223);
-    height: 40px;
-
+    height: 6vh;
 }
-
 nav a{
     text-decoration: none;
     font-size: 30px;
     color: black;
 }
-
 h1{
     color: blue;
     text-transform: uppercase;
     font-size: 50px;
     text-align: center;
 }
+body{background-image: "../static/backgound.png";
+}
 
 h2{
     text-align: center;
 }
-
 h3{
     text-align: center;
 }
 
 header img{
     width: 100px;
-    
-
 }
-
+section{
+    display: flex;
+    flex-direction: column;
+    height: 50vw;
+}
 
 section p{    
-    font-size: 25px;
-    background-color: lightslategray;
-    padding: 10px 40px;
+    font-size: 20px;
+    padding: 40px;
     border-radius: 40px;
     
+    
 }
-
-
 .eventos .fotos{
     display: flex;   
     justify-content: space-evenly;
@@ -74,7 +68,7 @@ section p{
 
 footer{
     background-color: rgb(19, 131, 223);
-    height: 110px;
+    height: 10vh;
     
 }
 
@@ -86,7 +80,11 @@ form {
     display: flex;
     flex-direction: column;
     width: 390px;
-    
-    
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
