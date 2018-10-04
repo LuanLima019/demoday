@@ -9,8 +9,16 @@
         <div class="fotos" >
             <% for(let evento of eventos){ %>
             <div>
-                <img src="<%= evento.img %>" alt="">
-                    <h3><%= evento.nome %></h3>
+                <a class="none" href="<%= evento.link %>">
+                    <img src="<%= evento.img %>" alt="">
+                    <h5><%= evento.nome %></h5></a>
+                
+                    
+                   <div>  
+                       
+                
+                </div>
+                   
             </div>
             <% } %>
         </div>

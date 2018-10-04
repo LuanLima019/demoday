@@ -1,19 +1,38 @@
 [
 {
-"nome": "Biblioteca",
-"img": "/static/evento-1.jpg"
+"nome": "Bibliotecas",
+"img": "/static/evento-1.jpg",
+"link": ""
 
 },
 
 {
-"nome": "Teatro",
+"nome": "Teatros",
 "img": "/static/evento-3.jpg"
 
 },
 
 {
-"nome": "Museu",
+"nome": "Museus",
 "img": "/static/evento-2.jpg"
 
-}
+},
+
+{
+    "nome": "Parques",
+    "img": "/static/evento-4.jpg"
+    
+    },
+    {
+        "nome": "Festivais",
+        "img": "/static/evento-5.jpg"
+        
+        },
+        {
+            "nome": "Eventos Culturais",
+            "img": "/static/evento-6.jpg"
+            
+            }
+        
+
 ]
